@@ -238,7 +238,7 @@ export default function SettingsClient({
   function startEditName(id: string, currentName: string) {
     setEditingCatId(id);
     setEditingCatName(currentName);
-    setEditingRatioId(null);
+    setRatioHistoryModal(null);
   }
 
   function cancelEditName() {
